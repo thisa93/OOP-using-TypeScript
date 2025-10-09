@@ -1,0 +1,20 @@
+1.  Initiate the NODE.JS
+        npm init
+2.  Install the TypeScript package
+        npm i -g TypeScript
+3.  Verify whether the TypeScript is installed or not
+        tsc --version
+4.  Initiate the TypeScript with some initial configurations
+        tsc --init --sourceMap --rootDir src outDir dist
+        it will show the tsconfig.json file
+5.  Create src folder to store the TypeScript files
+5.1 if you got any error while doing programming in export the files, disable the "verbatimModuleSyntax" in tsconfig.json 
+6.  To run the multiple TypeScript files, change the execution direction from src/index.ts to dist/index.js
+7.  The "tsc" commnd is used to compile the TypeScript file to JavaScript file
+8.  Now it will work.
+9.  To enable the auto compiling instead of running compiler manually, install the dependency.
+        npm i --save-dev typescript
+10. Task: configure default Task
+    tsc: watch tsconfig.json
+    --it will create task.json file
+11. Task: run build tasks
