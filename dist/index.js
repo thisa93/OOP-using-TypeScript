@@ -2,8 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const circle_1 = require("./Day1/circle");
 const student_1 = require("./Day1/student");
+const tv_1 = require("./Day2_AccessModify/tv");
 function main() {
-    functionForClassCircle();
+    //functionForClassCircle();
+    functionForTvClass();
 }
 main();
 function functionForClassCircle() {
@@ -27,5 +29,9 @@ function functionForClassStudent() {
     console.log(student1.getStudentName());
     student1.setStudentName("Kumar");
     console.log(student1.getStudentName());
+}
+function functionForTvClass() {
+    const obj = new tv_1.Tv(1, 1, false);
+    obj.turnOn();
 }
 //# sourceMappingURL=index.js.map

@@ -1,8 +1,10 @@
 import { Circle } from "./Day1/circle";
 import { Student } from "./Day1/student";
+import { Tv } from "./Day2_AccessModify/tv";
 
 function main(){
-    functionForClassCircle();
+    //functionForClassCircle();
+    functionForTvClass()
 }
 main();
 
@@ -32,4 +34,9 @@ function functionForClassStudent(){
     console.log(student1.getStudentName());
     student1.setStudentName("Kumar");
     console.log(student1.getStudentName());
+}
+
+function functionForTvClass(){
+    const obj = new Tv(1,1,false);
+    obj.turnOn();
 }
