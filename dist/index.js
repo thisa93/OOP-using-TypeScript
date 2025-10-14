@@ -32,6 +32,6 @@ function functionForClassStudent() {
 }
 function functionForTvClass() {
     const obj = new tv_1.Tv(1, 1, false);
-    obj.turnOn();
+    //var tvStatus:boolean = obj.turnOn();
 }
 //# sourceMappingURL=index.js.map

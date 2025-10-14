@@ -38,5 +38,5 @@ function functionForClassStudent(){
 
 function functionForTvClass(){
     const obj = new Tv(1,1,false);
-    obj.turnOn();
+    //var tvStatus:boolean = obj.turnOn();
 }
