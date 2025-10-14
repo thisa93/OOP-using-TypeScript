@@ -3,9 +3,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const circle_1 = require("./Day1/circle");
 const student_1 = require("./Day1/student");
 const tv_1 = require("./Day2_AccessModify/tv");
+const bike1_1 = require("./Day3_Inheritance/bike1");
 function main() {
     //functionForClassCircle();
-    functionForTvClass();
+    //functionForTvClass();
+    functionForInheritance();
 }
 main();
 function functionForClassCircle() {
@@ -33,5 +35,10 @@ function functionForClassStudent() {
 function functionForTvClass() {
     const obj = new tv_1.Tv(1, 1, false);
     //var tvStatus:boolean = obj.turnOn();
+}
+function functionForInheritance() {
+    const obj = new bike1_1.Bike(50, 120);
+    obj.getSpeedOfTheBike();
+    obj.getSpeedOfTheVehicle();
 }
 //# sourceMappingURL=index.js.map

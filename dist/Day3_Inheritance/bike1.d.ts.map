@@ -1,0 +1,1 @@
+{"version":3,"file":"bike1.d.ts","sourceRoot":"","sources":["../../src/Day3_Inheritance/bike1.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,MAAM,WAAW,CAAC;AAEpC,qBAAa,IAAK,SAAQ,OAAO;IAC7B,OAAO,CAAC,WAAW,CAAc;gBAErB,KAAK,EAAC,MAAM,EAAE,WAAW,EAAC,MAAM;IAKrC,iBAAiB,IAAG,IAAI;CAGlC"}

@@ -1,10 +1,12 @@
 import { Circle } from "./Day1/circle";
 import { Student } from "./Day1/student";
 import { Tv } from "./Day2_AccessModify/tv";
+import { Bike } from "./Day3_Inheritance/bike1";
 
 function main(){
     //functionForClassCircle();
-    functionForTvClass()
+    //functionForTvClass();
+    functionForInheritance();
 }
 main();
 
@@ -39,4 +41,10 @@ function functionForClassStudent(){
 function functionForTvClass(){
     const obj = new Tv(1,1,false);
     //var tvStatus:boolean = obj.turnOn();
+}
+
+function functionForInheritance(){
+    const obj = new Bike(50,120);
+    obj.getSpeedOfTheBike();
+    obj.getSpeedOfTheVehicle();
 }
