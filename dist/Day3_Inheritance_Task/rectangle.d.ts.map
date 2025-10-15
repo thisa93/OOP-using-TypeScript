@@ -1,0 +1,1 @@
+{"version":3,"file":"rectangle.d.ts","sourceRoot":"","sources":["../../src/Day3_Inheritance_Task/rectangle.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,mBAAmB,CAAC;AAEpD,qBAAa,SAAU,SAAQ,eAAe;IAC1C,OAAO,CAAC,KAAK,CAAQ;IACrB,OAAO,CAAC,MAAM,CAAQ;gBAEV,KAAK,EAAC,MAAM,EAAE,MAAM,EAAC,MAAM,EAAC,KAAK,EAAC,MAAM,EAAE,MAAM,EAAC,OAAO,EAAE,WAAW,EAAC,IAAI;CAKzF"}

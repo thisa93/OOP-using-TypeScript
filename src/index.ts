@@ -2,11 +2,18 @@ import { Circle } from "./Day1/circle";
 import { Student } from "./Day1/student";
 import { Tv } from "./Day2_AccessModify/tv";
 import { Bike } from "./Day3_Inheritance/bike1";
+import { Boy } from "./Day4_Polymorphism/Boy";
+import { Bank } from "./Day4_PolymorphismUsingInterface/Bank";
+import { BOC } from "./Day4_PolymorphismUsingInterface/BOC";
+import { HNB } from "./Day4_PolymorphismUsingInterface/HNB";
+import { Peoples } from "./Day4_PolymorphismUsingInterface/Peoples";
 
 function main(){
     //functionForClassCircle();
     //functionForTvClass();
-    functionForInheritance();
+    //functionForInheritance();
+    //functionForPolymorphism();
+    functionForBanking();
 }
 main();
 
@@ -47,4 +54,22 @@ function functionForInheritance(){
     const obj = new Bike(50,120);
     obj.getSpeedOfTheBike();
     obj.getSpeedOfTheVehicle();
+}
+
+function functionForPolymorphism(){
+    const obj = new Boy();
+    obj.eat();
+}
+
+function functionForBanking(){
+    const bankObj = new Bank();
+    const bocObj = new BOC();
+    const hnbObj = new HNB();
+    const peoplesObj = new Peoples();
+
+    console.log("How much I'll get if I deposit "+bankObj.deposit+" in each bank.");
+    console.log("I'll get "+bankObj.interest()+" in general");
+    console.log("I'll get "+hnbObj.interest()+" in HNB");
+    console.log("I'll get "+bocObj.interest()+" in BOC");
+    console.log("I'll get "+peoplesObj.interest()+" in Peoples Bank");
 }

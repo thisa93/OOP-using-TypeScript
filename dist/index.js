@@ -4,10 +4,17 @@ const circle_1 = require("./Day1/circle");
 const student_1 = require("./Day1/student");
 const tv_1 = require("./Day2_AccessModify/tv");
 const bike1_1 = require("./Day3_Inheritance/bike1");
+const Boy_1 = require("./Day4_Polymorphism/Boy");
+const Bank_1 = require("./Day4_PolymorphismUsingInterface/Bank");
+const BOC_1 = require("./Day4_PolymorphismUsingInterface/BOC");
+const HNB_1 = require("./Day4_PolymorphismUsingInterface/HNB");
+const Peoples_1 = require("./Day4_PolymorphismUsingInterface/Peoples");
 function main() {
     //functionForClassCircle();
     //functionForTvClass();
-    functionForInheritance();
+    //functionForInheritance();
+    //functionForPolymorphism();
+    functionForBanking();
 }
 main();
 function functionForClassCircle() {
@@ -40,5 +47,20 @@ function functionForInheritance() {
     const obj = new bike1_1.Bike(50, 120);
     obj.getSpeedOfTheBike();
     obj.getSpeedOfTheVehicle();
+}
+function functionForPolymorphism() {
+    const obj = new Boy_1.Boy();
+    obj.eat();
+}
+function functionForBanking() {
+    const bankObj = new Bank_1.Bank();
+    const bocObj = new BOC_1.BOC();
+    const hnbObj = new HNB_1.HNB();
+    const peoplesObj = new Peoples_1.Peoples();
+    console.log("How much I'll get if I deposit " + bankObj.deposit + " in each bank.");
+    console.log("I'll get " + bankObj.interest() + " in general");
+    console.log("I'll get " + hnbObj.interest() + " in HNB");
+    console.log("I'll get " + bocObj.interest() + " in BOC");
+    console.log("I'll get " + peoplesObj.interest() + " in Peoples Bank");
 }
 //# sourceMappingURL=index.js.map
