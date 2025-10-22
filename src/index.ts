@@ -7,13 +7,16 @@ import { Bank } from "./Day4_PolymorphismUsingInterface/Bank";
 import { BOC } from "./Day4_PolymorphismUsingInterface/BOC";
 import { HNB } from "./Day4_PolymorphismUsingInterface/HNB";
 import { Peoples } from "./Day4_PolymorphismUsingInterface/Peoples";
+import { Rectangle, Shape } from "./Day4_PolymorphismUsingInterface/sample";
+import { ShapeDemo } from "./ICAE1/ShapeDemo";
 
 function main(){
     //functionForClassCircle();
     //functionForTvClass();
     //functionForInheritance();
     //functionForPolymorphism();
-    functionForBanking();
+    //functionForBanking();
+    functionForICAE1()
 }
 main();
 
@@ -72,4 +75,9 @@ function functionForBanking(){
     console.log("I'll get "+hnbObj.interest()+" in HNB");
     console.log("I'll get "+bocObj.interest()+" in BOC");
     console.log("I'll get "+peoplesObj.interest()+" in Peoples Bank");
+}
+
+function functionForICAE1(){
+    const obj = new ShapeDemo();
+    obj.shepeDemoActions();
 }

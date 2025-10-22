@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Rectangle = exports.Circle = void 0;
 class Circle {
     radius;
     constructor(radius) {
@@ -9,6 +10,7 @@ class Circle {
         return Math.PI * this.radius * this.radius;
     }
 }
+exports.Circle = Circle;
 class Rectangle {
     width;
     height;
@@ -20,6 +22,7 @@ class Rectangle {
         return this.width * this.height;
     }
 }
+exports.Rectangle = Rectangle;
 function printArea(shape) {
     console.log("Area:", shape.area());
 }

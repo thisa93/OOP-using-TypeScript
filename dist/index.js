@@ -9,12 +9,14 @@ const Bank_1 = require("./Day4_PolymorphismUsingInterface/Bank");
 const BOC_1 = require("./Day4_PolymorphismUsingInterface/BOC");
 const HNB_1 = require("./Day4_PolymorphismUsingInterface/HNB");
 const Peoples_1 = require("./Day4_PolymorphismUsingInterface/Peoples");
+const ShapeDemo_1 = require("./ICAE1/ShapeDemo");
 function main() {
     //functionForClassCircle();
     //functionForTvClass();
     //functionForInheritance();
     //functionForPolymorphism();
-    functionForBanking();
+    //functionForBanking();
+    functionForICAE1();
 }
 main();
 function functionForClassCircle() {
@@ -62,5 +64,9 @@ function functionForBanking() {
     console.log("I'll get " + hnbObj.interest() + " in HNB");
     console.log("I'll get " + bocObj.interest() + " in BOC");
     console.log("I'll get " + peoplesObj.interest() + " in Peoples Bank");
+}
+function functionForICAE1() {
+    const obj = new ShapeDemo_1.ShapeDemo();
+    obj.shepeDemoActions();
 }
 //# sourceMappingURL=index.js.map

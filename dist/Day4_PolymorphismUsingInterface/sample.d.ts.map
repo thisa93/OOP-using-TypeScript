@@ -1,1 +1,1 @@
-{"version":3,"file":"sample.d.ts","sourceRoot":"","sources":["../../src/Day4_PolymorphismUsingInterface/sample.ts"],"names":[],"mappings":""}
+{"version":3,"file":"sample.d.ts","sourceRoot":"","sources":["../../src/Day4_PolymorphismUsingInterface/sample.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,KAAK;IACpB,IAAI,IAAI,MAAM,CAAC;CAChB;AAED,qBAAa,MAAO,YAAW,KAAK;IACtB,OAAO,CAAC,MAAM;gBAAN,MAAM,EAAE,MAAM;IAClC,IAAI,IAAI,MAAM;CAGf;AAED,qBAAa,SAAU,YAAW,KAAK;IACzB,OAAO,CAAC,KAAK;IAAU,OAAO,CAAC,MAAM;gBAA7B,KAAK,EAAE,MAAM,EAAU,MAAM,EAAE,MAAM;IACzD,IAAI,IAAI,MAAM;CAGf"}
